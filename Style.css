@@ -1,0 +1,74 @@
+/* Sidebar Styling */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #1E1E1E; /* Dark gray */
+    color: #FFD700; /* Gold */
+    font-family: 'Arial', sans-serif;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+/* Sidebar Links */
+.sidebar a {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFD700; /* Gold */
+    border-bottom: 1px solid #333333; /* Subtle divider */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #333333; /* Slightly darker background */
+    color: #FFC83D; /* Brightened gold */
+}
+
+/* Sidebar Icons */
+.sidebar a i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #FFD700; /* Gold */
+}
+
+/* Active Link Styling */
+.sidebar a.active {
+    background-color: #FFC107; /* Softer gold for active state */
+    color: #000000; /* Black for active text */
+    font-weight: bold;
+}
+
+/* Sidebar Header */
+.sidebar .header {
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFD700;
+    border-bottom: 2px solid #333333;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 250px; /* Sidebar width */
+    padding: 20px;
+    background-color: #121212; /* Dark background for content */
+    color: #FFFFFF; /* White text */
+    min-height: 100vh;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 200px; /* Narrower for smaller screens */
+    }
+    .main-content {
+        margin-left: 200px;
+    }
+}
