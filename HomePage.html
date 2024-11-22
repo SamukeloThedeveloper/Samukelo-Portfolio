@@ -11,7 +11,7 @@
    <body>
       <div class="sidebar">
          <div class="header">My Portfolio</div>
-         <a href="#about" class="active"><i class="fas fa-user"></i> About Me</a>
+         <a href="#about" ><i class="fas fa-user"></i> About Me</a>
          <a href="#skills"><i class="fas fa-cogs"></i> Skills</a>
          <a href="#projects"><i class="fas fa-code"></i> Projects</a>
          <a href="#experience"><i class="fas fa-briefcase"></i> Work Experience</a>
@@ -25,7 +25,11 @@
             </div>
             <div class="about-text">
                <h2>About Me</h2>
-               <p>Welcome! I am a passionate software developer...</p>
+               <p>I am a tech-savvy developer with skills ranging from software development to data analysis to even
+                    process automation. With skills and experience I have gathered from my university and two years of
+                    employment, they have made me an expert in delivering data-driven solutions using the best software
+                    solutions available.
+                </p>
             </div>
          </section>
 
@@ -199,8 +203,19 @@
         <div class="project-card" id="project-1">
             <div class="project-thumbnail"></div>
             <div class="project-info">
-                <h3>Project Title 1</h3>
-                <p class="project-description">Description of project 1</p>
+                <h3>Fund Administration Management System</h3>
+                <p class="project-description">Collaborated with a team of developers to build a robust fund administration system, encompassing:
+                    <ul>
+                        <li>Member Management: Streamlined onboarding and data management for individual members.</li>
+                        <li>Company Management: Oversaw company enrollment and tracking within the system.</li>
+                        <li>Fund Management: Enabled creation and maintenance of diverse fund structures.</li>
+                        <li>Contributions: Automated the processing and allocation of contributions.</li>
+                        <li>Claims: Focused on optimizing claim submissions and processing workflows.</li>
+                        <li>Dynamic Reports: Designed flexible reporting tools for real-time insights.</li>
+
+                    </ul>
+                    Additionally, implemented month-end procedures to calculate interest and ensure precise financial reporting, with a primary focus on enhancing the Claims process and Dynamic Reports functionality.
+                </p>
                 <p>Tech Stack: HTML, CSS, JavaScript</p>
                 <button class="view-project-btn">View Project</button>
             </div>
@@ -208,8 +223,18 @@
         <div class="project-card" id="project-1">
             <div class="project-thumbnail"></div>
             <div class="project-info">
-                <h3>Project Title 2</h3>
-                <p class="project-description">Description of project 1</p>
+                <h3>Data Migration & Cleanup</h3>
+                <p class="project-description">Data Migration & Cleanup
+                    <ul>
+                        <li>Led data migration project, transferring data between SQL Server and PostgreSQL, ensuring
+data integrity and minimizing downtime.</li>
+                        <li>Designed and implemented ETL (Extract, Transform, Load) processes for efficient data
+migration and integration.</li>
+                        <li>Utilized tools like SSMS (SQL Server Management Studio) and custom scripts to automate data
+migration tasks.</li>
+                        <li>Conducted data validation and testing post-migration to ensure accuracy and consistency.</li>
+                    </ul>
+                </p>
                 <p>Tech Stack: HTML, CSS, JavaScript</p>
                 <button class="view-project-btn">View Project</button>
             </div>
@@ -236,15 +261,27 @@
 </section>
 
 
-         <section class="work-experience-section">
+         <section class="work-experience-section" id="experience">
     <div class="section-title">Work Experience</div>
     <div class="timeline">
         <!-- Job Role 1 (most recent) -->
         <div class="timeline-item">
             <div class="timeline-content">
                 <h3>Junior Software Developer</h3>
-                <p class="timeline-date">July 2023 - Present</p>
-                <p>Fund Administration Management System - Led the data migration and data cleanup process, managing millions of records and ensuring consistency between the database and the UI.</p>
+                <p class="timeline-date">June 2023 - Present</p>
+                <p>
+                    <ul>
+                        <li><strong>Collaborated</strong> with a team of Developers to design, develop, and deploy software solutions.</li>
+                        <li><strong>Conducted weekly client demo sessions</strong> or demos per sprint to ensure continuous improvement and client satisfaction.</li>
+                        <li><strong>Developed and executed test cases</strong> to ensure high-quality software.</li>
+                        <li>Worked closely with <strong>Business Analysts</strong> and <strong>Software Testers</strong> to understand and align software solutions with client requirements.</li>
+                        <li>Utilized <strong>Agile development methodologies</strong> to ensure timely delivery of software.</li>
+                        <li>Utilized <strong>SQL Server Management Studio (SSMS)</strong> to manage and monitor SQL Server databases, ensuring optimal performance and availability.</li>
+                        <li>Developed <strong>T-SQL scripts</strong> for data retrieval, manipulation, and reporting.</li>
+                        <li><strong>Proficiently debugged and resolved software issues</strong>, assisted other developers with troubleshooting bugs, debugging software, creating code, and developing applications.</li>
+                        <li><strong>Led a team</strong> in the last project I was working on.</li>
+                    </ul>
+                </p>
                 <p><strong>Technologies Used:</strong> OutSystems, SQL Server, CSS, JavaScript</p>
             </div>
         </div>
@@ -262,10 +299,27 @@
 </section>
 
 
-         <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: example@example.com</p>
-         </section>
+         <section class="contact-section" id="contact">
+    <div class="section-title">Contact</div>
+    <div class="contact-container">
+        <!-- Contact Details -->
+        <div class="contact-details">
+            <p><strong>Email:</strong> <a href="mailto:youremail@example.com">samukelomsane@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourprofile" target="_blank">https://www.linkedin.com/in/samukelo-msane-145259235/</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/SamukeloThedeveloper/" target="_blank">github.com/SamukeloThedeveloper</a></p>
+        </div>
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <form action="your_backend_endpoint" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
     </div>
     <script src="Script.js"></script>
   </body>
