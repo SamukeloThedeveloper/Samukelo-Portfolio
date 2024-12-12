@@ -50,6 +50,7 @@ body{
 
 /* Sidebar Icons */
 .sidebar a i {
+    float: right;
     margin-right: 10px;
     font-size: 20px;
     color: var(--dynamic-color); /* Gold */
