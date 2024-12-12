@@ -96,3 +96,53 @@ fetch('projects.json')
     })
     .catch(error => console.error('Error fetching projects:', error));
 
+
+// Fetch the work experience data from the JSON file
+fetch('work_experience.json')
+    .then(response => response.json())
+    .then(workExperience => {
+        const timeline = document.querySelector('.timeline');
+
+        workExperience.forEach(job => {
+            // Create timeline item container
+            const timelineItem = document.createElement('div');
+            timelineItem.classList.add('timeline-item');
+
+            // Add timeline content container
+            const timelineContent = document.createElement('div');
+            timelineContent.classList.add('timeline-content');
+
+            // Add job role
+            const role = document.createElement('h3');
+            role.textContent = job.role;
+            timelineContent.appendChild(role);
+
+            // Add job date
+            const date = document.createElement('p');
+            date.classList.add('timeline-date');
+            date.textContent = job.date;
+            timelineContent.appendChild(date);
+
+            // Add job description list
+            if (job.description && job.description.length > 0) {
+                const descriptionList = document.createElement('ul');
+                job.description.forEach(item => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = item;
+                    descriptionList.appendChild(listItem);
+                });
+                timelineContent.appendChild(descriptionList);
+            }
+
+            // Add technologies used
+            const technologies = document.createElement('p');
+            technologies.innerHTML = `<strong>Technologies Used:</strong> ${job.technologies}`;
+            timelineContent.appendChild(technologies);
+
+            timelineItem.appendChild(timelineContent);
+            timeline.appendChild(timelineItem);
+        });
+    })
+    .catch(error => console.error('Error fetching work experience:', error));
+
+
