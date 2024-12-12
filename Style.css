@@ -2,7 +2,15 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.theme-container {
+  text-align: center;
+  padding: 50px;
+label {
+  margin-right: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+}
 
 /* Sidebar Styling */
 .sidebar {
