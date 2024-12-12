@@ -41,7 +41,7 @@ label {
 
 .sidebar a:hover {
     background-color: #333333; /* Slightly darker background */
-    color: #FFC83D; /* Brightened gold */
+    color: var(--dynamic-color); /* Brightened gold */
 }
 
 /* Sidebar Icons */
@@ -79,9 +79,10 @@ label {
 #about{
      border: 1px solid #333333;
      display: flex;
+     height: 100 vh;
      .profile-pic{
           width: 100%;
-          height: 100vh;
+          height: 50%;
           background-color: grey;
           border-radius: 10px;
           margin: 20px;
@@ -121,7 +122,7 @@ label {
 
 .skill-category h3 {
     font-size: 24px;
-    color: #FFC83D; /* Bright gold for subheadings */
+    color: var(--dynamic-color); /* Bright gold for subheadings */
     margin-bottom: 15px;
     text-align: left;
 }
