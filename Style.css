@@ -20,7 +20,7 @@ label {
     height: 100%;
     width: 250px;
     background-color: #1E1E1E; /* Dark gray */
-    color: #FFD700; /* Gold */
+    color: var(--dynamic-color); /* Gold */
     font-family: 'Arial', sans-serif;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
     overflow-y: auto;
@@ -34,7 +34,7 @@ label {
     padding: 15px 20px;
     text-decoration: none;
     font-size: 18px;
-    color: #FFD700; /* Gold */
+    color: var(--dynamic-color); /* Gold */
     border-bottom: 1px solid #333333; /* Subtle divider */
     transition: background-color 0.3s, color 0.3s;
 }
@@ -48,7 +48,7 @@ label {
 .sidebar a i {
     margin-right: 10px;
     font-size: 20px;
-    color: #FFD700; /* Gold */
+    color: var(--dynamic-color); /* Gold */
 }
 
 /* Active Link Styling */
@@ -64,7 +64,7 @@ label {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    color: #FFD700;
+    color: var(--dynamic-color);
     border-bottom: 2px solid #333333;
 }
 
@@ -100,7 +100,7 @@ label {
 
 .section-title {
     font-size: 32px;
-    color: #FFD700; /* Gold title */
+    color: var(--dynamic-color); /* Gold title */
     margin-bottom: 30px;
 }
 
@@ -135,7 +135,7 @@ label {
 
 .skill-item i {
     font-size: 20px;
-    color: #FFD700; /* Gold icons */
+    color: var(--dynamic-color); /* Gold icons */
     margin-right: 10px;
 }
 
@@ -156,7 +156,7 @@ label {
 
 .progress-bar .progress {
     height: 100%;
-    background-color: #FFD700; /* Gold progress */
+    background-color: var(--dynamic-color); /* Gold progress */
     border-radius: 4px;
 }
 
@@ -178,7 +178,7 @@ label {
 }
 
 .section-title {
-    color: #FFD700; /* Gold color */
+    color: var(--dynamic-color); /* Gold color */
     font-size: 32px;
     margin-bottom: 40px;
 }
@@ -203,7 +203,7 @@ label {
 }
 
 .projects-container::-webkit-scrollbar-thumb {
-    background: #FFD700; /* Gold color for the scrollbar thumb */
+    background: var(--dynamic-color); /* Gold color for the scrollbar thumb */
     border-radius: 6px; /* Rounded corners */
     border: 2px solid #333; /* Padding effect with the track color */
 }
@@ -246,7 +246,7 @@ label {
 .project-info h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #FFD700; /* Gold color for title */
+    color: var(--dynamic-color); /* Gold color for title */
 }
 
 /* Project Description */
@@ -265,7 +265,7 @@ label {
 .view-project-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #FFD700;
+    background-color: var(--dynamic-color);
     color: #333;
     text-decoration: none;
     border-radius: 5px;
@@ -282,7 +282,7 @@ label {
 .project-card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    border: 2px solid #FFD700; /* Gold border on hover */
+    border: 2px solid var(--dynamic-color); /* Gold border on hover */
 }
 
 /* Work Experience Section */
@@ -293,7 +293,7 @@ label {
     overflow-y: scroll;
     height: 80vh;
     width: 100%;
-    scrollbar-color: #FFD700 #333; /* For Firefox: Thumb (gold), Track (dark) */
+    scrollbar-color: var(--dynamic-color) #333; /* For Firefox: Thumb (gold), Track (dark) */
     scrollbar-width: thin; /* For Firefox */
 }
 
@@ -308,7 +308,7 @@ label {
 }
 
 .work-experience-section::-webkit-scrollbar-thumb {
-    background: #FFD700; /* Gold color for the scrollbar thumb */
+    background: var(--dynamic-color); /* Gold color for the scrollbar thumb */
     border-radius: 6px; /* Rounded corners */
     border: 2px solid #333; /* Padding effect with the track color */
 }
@@ -323,7 +323,7 @@ label {
 
 
 .section-title {
-    color: #FFD700; /* Gold color */
+    color: var(--dynamic-color); /* Gold color */
     font-size: 32px;
     margin-bottom: 40px;
 }
@@ -366,7 +366,7 @@ label {
     left: 30px;
     top: 0;
     height: 100%;
-    border-left: 2px solid #FFD700; /* Gold color for the line */
+    border-left: 2px solid var(--dynamic-color); /* Gold color for the line */
     z-index: 1;
 }
 
@@ -378,7 +378,7 @@ label {
     top: 0;
     width: 20px;
     height: 20px;
-    background-color: #FFD700; /* Gold circle */
+    background-color: var(--dynamic-color); /* Gold circle */
     border-radius: 50%;
     z-index: 2;
 }
@@ -387,7 +387,7 @@ label {
 .timeline-content h3 {
     font-size: 22px;
     font-weight: bold;
-    color: #FFD700; /* Gold color */
+    color: var(--dynamic-color); /* Gold color */
     margin-bottom: 10px;
 }
 
@@ -399,7 +399,7 @@ label {
 
 .timeline-content strong {
     font-weight: bold;
-    color: #FFD700;
+    color: var(--dynamic-color);
 }
 
 
@@ -412,7 +412,7 @@ label {
 }
 
 .section-title {
-    color: #FFD700; /* Gold */
+    color: var(--dynamic-color); /* Gold */
     font-size: 32px;
     margin-bottom: 30px;
 }
@@ -438,7 +438,7 @@ label {
 }
 
 .contact-details a {
-    color: #FFD700; /* Gold links */
+    color: var(--dynamic-color); /* Gold links */
     text-decoration: none;
 }
 
@@ -470,7 +470,7 @@ label {
 }
 
 .contact-form button {
-    background-color: #FFD700; /* Gold */
+    background-color: var(--dynamic-color); /* Gold */
     color: black;
     padding: 10px;
     font-size: 18px;
