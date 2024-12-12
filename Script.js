@@ -1,3 +1,24 @@
+// script.js
+document.addEventListener("DOMContentLoaded", () => {
+  const root = document.documentElement;
+  const themeRadios = document.querySelectorAll('input[name="theme"]');
+
+  themeRadios.forEach((radio) => {
+    radio.addEventListener("change", () => {
+      switch (radio.value) {
+        case "blue":
+          root.style.setProperty("--dynamic-color", "#007bff"); // Blue theme
+          break;
+        case "gold":
+          root.style.setProperty("--dynamic-color", "#FFD700"); // Gold theme
+          break;
+        case "nerve":
+          root.style.setProperty("--dynamic-color", "#ff4500"); // Nerve theme
+          break;
+      }
+    });
+  });
+});
 
   fetch('skills.json')
     .then(response => response.json())
