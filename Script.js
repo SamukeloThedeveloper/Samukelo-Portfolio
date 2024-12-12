@@ -37,7 +37,7 @@
 
 
 // Fetch the projects data from the JSON file
-fetch('data/projects.json')
+fetch('projects.json')
     .then(response => response.json())
     .then(projects => {
         const projectsContainer = document.querySelector('.projects-container');
