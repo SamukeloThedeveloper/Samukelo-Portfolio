@@ -1,0 +1,51 @@
+{
+    "skills": [
+      {
+        "category": "Programming Languages",
+        "items": [
+          { "name": "Python", "icon": "fas fa-code", "progress": 85 },
+          { "name": "Java", "icon": "fas fa-code", "progress": 90 },
+          { "name": "JavaScript", "icon": "fas fa-code", "progress": 80 },
+          { "name": "TypeScript", "icon": "fas fa-code", "progress": 75 },
+          { "name": "C#", "icon": "fas fa-code", "progress": 70 },
+          { "name": "Angular 2+", "icon": "fas fa-code", "progress": 80 }
+        ]
+      },
+      {
+        "category": "Web Development",
+        "items": [
+          { "name": "HTML & CSS", "icon": "fas fa-paint-brush", "progress": 90 }
+        ]
+      },
+      {
+        "category": "Databases",
+        "items": [
+          { "name": "PostgreSQL", "icon": "fas fa-database", "progress": 85 },
+          { "name": "SQL Server", "icon": "fas fa-database", "progress": 90 },
+          { "name": "MySQL", "icon": "fas fa-database", "progress": 80 }
+        ]
+      },
+      {
+        "category": "Tools",
+        "items": [
+          { "name": "Git & GitLab", "icon": "fas fa-tools", "progress": 80 },
+          { "name": "Microsoft Office (Advanced Excel)", "icon": "fas fa-tools", "progress": 85 }
+        ]
+      },
+      {
+        "category": "Technologies",
+        "items": [
+          { "name": ".NET Framework", "icon": "fas fa-laptop-code", "progress": 80 },
+          { "name": "OutSystems", "icon": "fas fa-laptop-code", "progress": 75 },
+          { "name": "SQL Server Management Studio (SSMS)", "icon": "fas fa-server", "progress": 85 }
+        ]
+      },
+      {
+        "category": "Teamwork",
+        "items": [
+          { "name": "Collaboration & Team Experience", "icon": "fas fa-users", "progress": 90 }
+        ]
+      }
+    ]
+  }
+  
