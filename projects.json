@@ -1,0 +1,41 @@
+[
+    {
+        "id": "project-1",
+        "title": "Fund Administration Management System",
+        "description": "Collaborated with a team of developers to build a robust fund administration system, encompassing:",
+        "details": [
+            "Member Management: Streamlined onboarding and data management for individual members.",
+            "Company Management: Oversaw company enrollment and tracking within the system.",
+            "Fund Management: Enabled creation and maintenance of diverse fund structures.",
+            "Contributions: Automated the processing and allocation of contributions.",
+            "Claims: Focused on optimizing claim submissions and processing workflows.",
+            "Dynamic Reports: Designed flexible reporting tools for real-time insights."
+        ],
+        "techStack": "HTML, CSS, JavaScript"
+    },
+    {
+        "id": "project-2",
+        "title": "Data Migration & Cleanup",
+        "description": "Led data migration project, transferring data between SQL Server and PostgreSQL, ensuring data integrity and minimizing downtime.",
+        "details": [
+            "Designed and implemented ETL (Extract, Transform, Load) processes for efficient data migration and integration.",
+            "Utilized tools like SSMS (SQL Server Management Studio) and custom scripts to automate data migration tasks.",
+            "Conducted data validation and testing post-migration to ensure accuracy and consistency."
+        ],
+        "techStack": "HTML, CSS, JavaScript"
+    },
+    {
+        "id": "project-3",
+        "title": "Project Title 3",
+        "description": "Description of project 3",
+        "details": [],
+        "techStack": "HTML, CSS, JavaScript"
+    },
+    {
+        "id": "project-4",
+        "title": "Project Title 4",
+        "description": "Description of project 4",
+        "details": [],
+        "techStack": "HTML, CSS, JavaScript"
+    }
+]
