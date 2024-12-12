@@ -1,0 +1,27 @@
+[
+    {
+        "role": "Junior Software Developer",
+        "date": "June 2023 - Present",
+        "description": [
+            "Collaborated with a team of Developers to design, develop, and deploy software solutions.",
+            "Conducted weekly client demo sessions or demos per sprint to ensure continuous improvement and client satisfaction.",
+            "Developed and executed test cases to ensure high-quality software.",
+            "Worked closely with Business Analysts and Software Testers to understand and align software solutions with client requirements.",
+            "Utilized Agile development methodologies to ensure timely delivery of software.",
+            "Utilized SQL Server Management Studio (SSMS) to manage and monitor SQL Server databases, ensuring optimal performance and availability.",
+            "Developed T-SQL scripts for data retrieval, manipulation, and reporting.",
+            "Proficiently debugged and resolved software issues, assisted other developers with troubleshooting bugs, debugging software, creating code, and developing applications.",
+            "Led a team in the last project I was working on."
+        ],
+        "technologies": "OutSystems, SQL Server, CSS, JavaScript"
+    },
+    {
+        "role": "Software Developer Intern",
+        "date": "March 2023 - June 2023",
+        "description": [
+            "Led the development of a dynamic report generation system as part of the 2-Pot System Project.",
+            "Used technologies such as Angular, SQL Server, and .NET Framework."
+        ],
+        "technologies": "Angular, .NET Framework, SQL Server"
+    }
+]
