@@ -1,5 +1,5 @@
 
-  fetch('data/skills.json')
+  fetch('skills.json')
     .then(response => response.json())
     .then(data => {
       const skillsSection = document.querySelector('.skills-grid');
